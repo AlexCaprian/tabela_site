@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(0, 40, 85);
+    background-attachment: fixed;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gifs_01 {
+    margin-left: -5%;
+    margin-right: 5%;
+}
+
+table {
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+
+.tabela_main {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+th {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Defina a cor de fundo padrão para td */
+td {
+    padding: 0.4rem;
+    background-color: #f2f2f2;
+    /* ou a cor desejada */
+}
+
+/* Adicione uma regra para linhas pares */
+tr:nth-child(even) td {
+    background-color: white;
+    /* ou a cor desejada para linhas pares */
+}
+
+
+
+.tb_data {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    color: #000;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+.tb_centro {
+    text-align: center;
+}
+
+.pagination .current {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
